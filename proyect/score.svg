@@ -1,0 +1,14 @@
+<svg width="205" height="28" viewBox="0 0 205 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+<line x1="4" y1="1" x2="201" y2="1" stroke="black" stroke-width="2"/>
+<line x1="4" y1="27" x2="201" y2="27" stroke="black" stroke-width="2"/>
+<line x1="202" y1="2" x2="202" y2="4" stroke="black" stroke-width="2"/>
+<line x1="202" y1="24" x2="202" y2="26" stroke="black" stroke-width="2"/>
+<line x1="3" y1="2" x2="3" y2="4" stroke="black" stroke-width="2"/>
+<line x1="3" y1="24" x2="3" y2="26" stroke="black" stroke-width="2"/>
+<line x1="204" y1="4" x2="204" y2="24" stroke="black" stroke-width="2"/>
+<line x1="1" y1="4" x2="1" y2="24" stroke="black" stroke-width="2"/>
+<rect x="4" y="2" width="197" height="24" fill="white"/>
+<rect x="2" y="4" width="8" height="20" fill="white"/>
+<rect x="195" y="4" width="8" height="20" fill="white"/>
+<path d="M76.375 18.625V17.25H75V15.875H77.75V17.25H81.875V14.5H76.375V13.125H75V10.375H76.375V9H83.25V10.375H84.625V11.75H81.875V10.375H77.75V13.125H83.25V14.5H84.625V17.25H83.25V18.625H76.375ZM87.375 18.625V17.25H86V13.125H87.375V11.75H95.625V13.125H88.75V17.25H95.625V18.625H87.375ZM98.375 18.625V17.25H97V13.125H98.375V11.75H105.25V13.125H106.625V17.25H105.25V18.625H98.375ZM99.75 17.25H103.875V13.125H99.75V17.25ZM112.125 13.125H113.5V14.5H112.125V18.625H109.375V11.75H112.125V13.125ZM117.625 11.75V13.125H113.5V11.75H117.625ZM120.375 18.625V17.25H119V13.125H120.375V11.75H127.25V13.125H128.625V15.875H121.75V17.25H127.25V18.625H120.375ZM121.75 14.5H125.875V13.125H121.75V14.5Z" fill="black"/>
+</svg>
