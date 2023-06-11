@@ -15,7 +15,7 @@
   --step-6: clamp(3.73rem, calc(2.72rem + 5.07vw), 7.15rem);
   --step-7: clamp(4.48rem, calc(3.16rem + 6.61vw), 8.94rem);
   --step-8: clamp(5.38rem, calc(3.66rem + 8.59vw), 11.18rem);
-  --max-width: 1400px;
+  --max-width: 1440px;
   --black: #000000;
   --blue-dark: #0c111d;
   --blue-light: #5aaaf7;
@@ -30,6 +30,7 @@
   --yellow-light: #ffdb73;
   --arcade: "Press Start 2P";
   --terminal: "VT323", monospace;
+  --raleway: "Raleway", sans-serif;
   --sombra: -12px 14px 3px 0px rgba(0, 0, 0, 0.3);
 }
 
@@ -88,6 +89,13 @@ img {
   box-shadow: var(--sombra);
 }
 
+.screen-mini {
+  padding: 0.7rem;
+  width: 90%;
+  text-align: center;
+  color: var(--yellow);
+}
+
 .box {
   position: relative;
   padding: 1rem;
@@ -111,7 +119,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  max-width: 1440px;
+
   background-image: url(proyect/background.gif);
   background-repeat: no-repeat;
   background-position: center;
@@ -153,9 +161,6 @@ body {
 }
 
 /********************* Main *********************/
-.main {
-}
-
 /********************* sobre mi *********************/
 .sobre-mi {
   padding-top: 1rem;
@@ -169,7 +174,7 @@ body {
   right: 1rem;
 }
 
-.box span {
+.screen span {
   color: var(--yellow-light);
 }
 
@@ -190,16 +195,6 @@ body {
 .score-text_p {
   display: flex;
   justify-content: space-between;
-}
-
-.screen-descripcion {
-  padding: 0.7rem;
-  width: 90%;
-  text-align: center;
-}
-
-.screen-descripcion > span {
-  color: var(--yellow);
 }
 
 .screen-terminal {
@@ -223,9 +218,78 @@ body {
 .screen-terminal > div {
   display: flex;
   flex-direction: column;
+  margin-bottom: 0.5rem;
+}
+
+.screen-terminal > p {
+  margin-bottom: 0.3rem;
 }
 
 .screen-terminal > div > div {
   display: flex;
   justify-content: space-between;
+}
+
+/********************* estadisticas *********************/
+.estadisticas {
+  background-color: var(--purple-dark);
+}
+
+.screen-portafolio {
+  padding: 1.5rem 0.5rem;
+  background-color: var(--gray-dark);
+  font-family: var(--raleway);
+}
+
+.pokemon {
+  position: absolute;
+  right: 0;
+  bottom: 100%;
+  margin-bottom: 1.2rem;
+  margin-right: 0.2rem;
+}
+
+.screen-bars {
+  background-color: var(--gray-dark);
+  padding: 1.5rem 0.5rem;
+  font-family: var(--raleway);
+}
+
+.box-list {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.3rem;
+}
+
+.box-list_li1 {
+  font-size: var(--step--3);
+  width: 30%;
+}
+
+.box-list_li2 {
+  padding: 1rem;
+  width: 70%;
+}
+
+.progress {
+  overflow-x: visible;
+  position: relative;
+  padding: 2px;
+  width: 100%;
+  background-color: #212529;
+  box-shadow: 2px 0 0 0 #d1cdc7, -2px 0 0 0 #d1cdc7, 0 2px 0 0 #d1cdc7,
+    0 -2px 0 0 #d1cdc7;
+}
+.progress::-webkit-progress-value {
+  background-color: #de3919;
+}
+.progress::-webkit-progress-bar {
+  background-color: #ffffff;
+}
+.progress::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 50%;
+  margin-left: -2em;
 }
