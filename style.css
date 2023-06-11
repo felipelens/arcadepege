@@ -163,6 +163,14 @@ body {
   background-color: var(--gray-dark);
 }
 
+.screen-acerca {
+  padding: 1.5rem 0.3rem;
+}
+
+.screen-acerca > p {
+  width: 90%;
+}
+
 .console {
   position: absolute;
   width: 62px;
@@ -177,7 +185,7 @@ body {
 .screen-score {
   display: flex;
   justify-content: space-around;
-  padding: 1.5rem 0.1rem;
+  padding: 1.5rem 0rem;
 }
 
 .marco-photo {
@@ -189,6 +197,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   font-size: var(--step--4);
+  margin: 0 0.5rem;
 }
 
 .score-text_p {
@@ -238,6 +247,7 @@ body {
 
 /********************* estadisticas *********************/
 .estadisticas {
+  padding: 1rem 0rem;
   background-color: var(--purple-dark);
 }
 
