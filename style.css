@@ -79,7 +79,7 @@ img {
 }
 
 .screen {
-  padding: 2rem 0.3rem;
+  padding: 2rem 0.5rem;
   margin: 0 auto;
   background-color: var(--black);
   color: #fff;
@@ -188,13 +188,17 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-left: 0.5rem;
   font-size: var(--step--4);
 }
 
 .score-text_p {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.heart {
+  width: 18px;
 }
 
 .screen-terminal {
