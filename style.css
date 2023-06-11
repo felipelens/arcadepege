@@ -199,6 +199,7 @@ body {
 
 .heart {
   width: 18px;
+  height: auto;
 }
 
 .screen-terminal {
