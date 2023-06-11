@@ -79,7 +79,7 @@ img {
 }
 
 .screen {
-  padding: 3rem 0.3rem;
+  padding: 2rem 0.3rem;
   margin: 0 auto;
   background-color: var(--black);
   color: #fff;
@@ -87,6 +87,7 @@ img {
   font-family: var(--arcade);
   font-size: var(--step--2);
   box-shadow: var(--sombra);
+  line-height: 1.5;
 }
 
 .screen-mini {
@@ -119,7 +120,6 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-
   background-image: url(proyect/background.gif);
   background-repeat: no-repeat;
   background-position: center;
@@ -127,47 +127,43 @@ body {
 }
 
 .header-icon {
-  margin-top: 1rem;
   width: clamp(309px, 100vw, 650px);
+  margin-top: 1rem;
 }
 
 .header-cat {
   position: absolute;
   left: 0;
   top: 50%;
-  width: clamp(110px, 20vw, 202px);
+  width: clamp(90px, 30vw, 160px);
 }
-
 .header-article {
-  height: 60%;
-}
-
-.header-article_section {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
+  font-size: var(--step--1);
+  font-family: var(--arcade);
+  color: #fff;
 }
 
-.header-article_section > img {
+.header-article > section > img {
   width: 38px;
   margin-bottom: 1rem;
 }
 
-.header-article_section > p {
+.header-article > section > p {
   margin-bottom: 1rem;
-  font-size: var(--step-0);
-  font-family: var(--arcade);
-  color: #fff;
 }
 
 /********************* Main *********************/
 /********************* sobre mi *********************/
 .sobre-mi {
-  padding-top: 1rem;
+  padding: 1rem 0rem;
   background-color: var(--gray-dark);
 }
 
-.box > img:nth-child(3) {
+.console {
   position: absolute;
   width: 62px;
   bottom: 0rem;
@@ -181,15 +177,19 @@ body {
 .screen-score {
   display: flex;
   justify-content: space-around;
-  font-size: var(--step--4);
   padding: 1.5rem 0.1rem;
 }
 
+.marco-photo {
+  width: 90px;
+}
+
 .score-text {
-  margin-left: 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-left: 0.5rem;
+  font-size: var(--step--4);
 }
 
 .score-text_p {
@@ -201,6 +201,7 @@ body {
   padding: 0.2rem;
   font-size: var(--step--1);
   font-family: var(--terminal);
+  line-height: 1.1;
 }
 
 .screen-terminal span:nth-child(1) {
@@ -236,38 +237,39 @@ body {
 }
 
 .screen-portafolio {
-  padding: 1.5rem 0.5rem;
   background-color: var(--gray-dark);
-  font-family: var(--raleway);
+  font-family: var(--arcade);
+  font-size: var(--step--2);
 }
 
 .pokemon {
   position: absolute;
   right: 0;
-  bottom: 100%;
+  bottom: 0;
   margin-bottom: 1.2rem;
-  margin-right: 0.2rem;
+  margin-right: 1.3rem;
+  width: 70px;
 }
 
 .screen-bars {
   background-color: var(--gray-dark);
-  padding: 1.5rem 0.5rem;
+  padding: 1rem 0rem;
   font-family: var(--raleway);
 }
 
 .box-list {
   display: flex;
   align-items: center;
-  margin-bottom: 0.3rem;
 }
 
 .box-list_li1 {
+  margin-left: 0.5rem;
   font-size: var(--step--3);
   width: 30%;
 }
 
 .box-list_li2 {
-  padding: 1rem;
+  padding: 1rem 0.5rem;
   width: 70%;
 }
 
