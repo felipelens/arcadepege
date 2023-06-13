@@ -147,13 +147,15 @@ body {
   color: #fff;
 }
 
-.header-article > section > img {
+.header-article_img {
   width: 38px;
   margin-bottom: 1rem;
 }
 
-.header-article > section > p {
-  margin-bottom: 1rem;
+.header-article_p {
+  text-decoration: none;
+  color: #fff;
+  line-height: 2;
 }
 
 /********************* Main *********************/
