@@ -109,7 +109,9 @@ img {
   left: calc(50% - 116px);
   top: 0.2rem;
 }
-
+*::-webkit-scrollbar {
+  display: none;
+}
 /********************* body *********************/
 body {
   background-color: var(--blue-dark);
@@ -208,7 +210,14 @@ body {
 .score-text_p {
   display: flex;
   justify-content: space-between;
-  margin-top: 0.5rem;
+  align-items: center;
+  height: 2rem;
+}
+
+.score-text_p > p {
+  display: flex;
+  align-items: center;
+  height: 100%;
 }
 
 .heart {
