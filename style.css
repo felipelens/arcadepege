@@ -123,9 +123,9 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  background-image: url(proyect/background.gif);
+  background-image: url(proyect/background.webp);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center 100%;
   background-size: cover;
 }
 
@@ -144,23 +144,73 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
-  font-size: var(--step--1);
+  font-size: var(--step-0);
   font-family: var(--arcade);
-  color: #fff;
+  color: var(--black);
 }
 
-.header-article_img {
-  width: 38px;
-  margin-bottom: 1rem;
+.start {
+  width: 50px;
+  animation: star 2s ease-in-out 0s infinite;
 }
 
 .header-article_p {
   text-decoration: none;
-  color: #fff;
+  color: var(--black);
   line-height: 2;
 }
 
+.arrow {
+  width: 45px;
+  animation: arrowGif 400ms ease-in-out 0s infinite alternate;
+}
+
+.header-article_p > p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.secund_p {
+  margin-left: 2.5rem;
+}
+
+.pointer {
+  width: 35px;
+  margin-bottom: 1em;
+  animation: pointer 800ms ease-in-out 0s infinite alternate;
+}
+
+/********************* animation HEADER *********************/
+@keyframes star {
+  from {
+    transform: rotatey(0deg);
+  }
+
+  to {
+    transform: rotatey(360deg);
+  }
+}
+
+@keyframes pointer {
+  from {
+    transform: translateY(0%);
+  }
+
+  to {
+    transform: translateY(35%);
+  }
+}
+
+@keyframes arrowGif {
+  from {
+    transform: translateX(0%);
+  }
+
+  to {
+    transform: translateX(20%);
+  }
+}
 /********************* Main *********************/
 /********************* sobre mi *********************/
 .sobre-mi {
