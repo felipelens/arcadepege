@@ -382,9 +382,8 @@ body {
 /********************* Media Queries *********************/
 @media (min-width: 450px) {
   .score-text {
-    font-size: var(--step--3);
-    line-height: 1;
     width: 80%;
+    font-size: var(--step--3);
   }
   .div-marco-photo {
     display: flex;
@@ -396,16 +395,11 @@ body {
   }
 }
 @media (min-width: 600px) {
-  .screen {
-    padding: 2rem 0.5rem;
-  }
-
   .screen-mini {
     width: 90%;
   }
 
   .box {
-    position: relative;
     width: 90%;
     padding: 1.2rem 1rem;
   }
@@ -422,17 +416,12 @@ body {
   }
 
   .screen-acerca {
-    padding: 1.5rem 2rem;
+    padding: 1rem 2rem;
+    font-size: var(--step--1);
   }
 
   .console {
-    width: 85px;
-  }
-
-  .screen-score {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 1.5rem 0rem;
+    width: 75px;
   }
 
   .div-marco-photo {
@@ -441,7 +430,7 @@ body {
   }
 
   .score-text {
-    font-size: var(--step--2);
+    font-size: var(--step--3);
   }
 
   .screen-terminal {
@@ -455,16 +444,12 @@ body {
   }
 
   .screen-portafolio {
-    font-size: var(--step--2);
+    font-size: var(--step--1);
   }
 
   .pokemon {
     margin-bottom: 1.4rem;
     width: 75px;
-  }
-
-  .screen-bars {
-    padding: 1rem 0rem;
   }
 
   .box-list_li1 {
@@ -476,13 +461,12 @@ body {
   .screen-mini {
     padding: 0.5rem;
     width: 50%;
-    font-size: var(--step--3);
+    font-size: var(--step--1);
   }
 
   .sobre-mi {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    row-gap: 1em;
   }
 
   .sobre-mi .box:nth-child(1) {
@@ -497,11 +481,14 @@ body {
     grid-column: 1 / 3;
   }
 
-  .score-text {
-    font-size: var(--step--3);
-    line-height: 1;
-    width: 75%;
+  .screen-score {
+    padding: 1.2rem 0.2rem;
   }
+
+  .score-text {
+    font-size: var(--step--4);
+  }
+
   .div-marco-photo {
     display: flex;
     align-items: center;
@@ -515,7 +502,7 @@ body {
   }
 
   .screen-portafolio {
-    width: 70%;
+    width: 80%;
   }
 
   .pokemon {
@@ -540,7 +527,7 @@ body {
 
   .box-mod .global {
     left: calc(100% - 80%);
-    top: 2%;
+    top: 1.8%;
     width: 60%;
   }
 
